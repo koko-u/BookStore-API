@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookStore-API</name>
+    </assembly>
+    <members>
+        <member name="T:BookStore_API.Controllers.HomeController">
+            <summary>
+            This is a test API Controller
+            </summary>
+        </member>
+        <member name="M:BookStore_API.Controllers.HomeController.#ctor(BookStore_API.Contracts.ILoggerService)">
+            <inheritdoc />
+        </member>
+        <member name="M:BookStore_API.Controllers.HomeController.Get">
+            <summary>
+            Get Values
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.HomeController.Get(System.Int32)">
+            <summary>
+            Get a value
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BookStore_API.Services.LoggerService.LogInfo(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:BookStore_API.Services.LoggerService.LogWarn(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:BookStore_API.Services.LoggerService.LogDebug(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:BookStore_API.Services.LoggerService.LogError(System.String)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
